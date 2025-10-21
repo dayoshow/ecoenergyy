@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Eco Energies System Limited - Free Solar Quote</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1dc962",
+              "background-light": "#f6f8f7",
+              "background-dark": "#112117",
+              "text-light": "#112117",
+              "text-dark": "#f6f8f7",
+              "border-light": "#dce5df",
+              "border-dark": "#2a3c32",
+              "placeholder-light": "#648772",
+              "placeholder-dark": "#a0b5a9",
+            },
+            fontFamily: {
+              display: ["Manrope", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+<div class="flex flex-col min-h-screen">
+<header class="border-b border-border-light dark:border-border-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_330)">
+<path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clipPath id="clip0_6_330">
+<rect fill="white" height="48" width="48"></rect>
+</clipPath>
+</defs>
+</svg>
+</div>
+<h1 class="text-xl font-bold">Eco Energies</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<a class="hidden md:inline-flex items-center justify-center px-4 py-2 text-sm font-bold bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors" href="#">
+              Get a Quote
+            </a>
+</div>
+</div>
+</header>
+<main class="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+<div class="w-full max-w-lg space-y-8">
+<div class="text-center">
+<h2 class="text-3xl font-extrabold tracking-tight">Request Your Free Solar Quote</h2>
+<p class="mt-4 text-lg text-text-light/80 dark:text-text-dark/80">
+              Fill out the form below to receive a personalized quote. Our team will review your information and get back to you with a detailed proposal.
+            </p>
+</div>
+<form action="#" class="mt-8 space-y-6 bg-background-light dark:bg-background-dark p-8 rounded-xl border border-border-light dark:border-border-dark" method="POST">
+<div class="space-y-6">
+<input class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="name" placeholder="Full Name" required="" type="text"/>
+<input class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="email" placeholder="Email Address" required="" type="email"/>
+<input class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="phone" placeholder="Phone Number" required="" type="tel"/>
+<input class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="address" placeholder="Property Address" required="" type="text"/>
+<select class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="property_type" required="">
+<option disabled="" selected="" value="">Type of Property</option>
+<option value="residential">Residential</option>
+<option value="commercial">Commercial</option>
+</select>
+<select class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="energy_needs" required="">
+<option disabled="" selected="" value="">Estimated Energy Needs</option>
+<option value="small">Small (e.g., &lt; 5,000 kWh/year)</option>
+<option value="medium">Medium (e.g., 5,000 - 15,000 kWh/year)</option>
+<option value="large">Large (e.g., &gt; 15,000 kWh/year)</option>
+</select>
+<textarea class="w-full px-4 py-3 bg-transparent border border-border-light dark:border-border-dark rounded-lg placeholder-placeholder-light dark:placeholder-placeholder-dark focus:ring-2 focus:ring-primary focus:border-primary" name="message" placeholder="Message / Specific Requirements" rows="4"></textarea>
+</div>
+<div>
+<button class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-bold rounded-lg text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition-colors" type="submit">
+                Submit Request
+              </button>
+</div>
+</form>
+</div>
+</main>
+</div>
+
+</body></html>
